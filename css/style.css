@@ -32,7 +32,7 @@ p .bold {
 
 /* header */
 
-header{
+header,footer{
   background-color: #AF966D;
   padding: 10px;
 }
@@ -181,6 +181,9 @@ strong{
   align-items:center ;
 
 }
+
+
+/* Footer */
 
 
 
