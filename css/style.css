@@ -22,7 +22,7 @@ p{
   src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype'); 
 }
 
-p {
+p .bold {
   font-family: 'Libre Baskerville', serif;
   src: url("../fonts/LibreBaskerville-Bold.ttf") format('truetype');
   font-weight: bold;
@@ -72,6 +72,8 @@ i {font-size:36px}
 
 nav a {font-size:24px}
 
+* p {font-size: 16px;}
+
 /*
 
 Couleur dorée : #af966d
@@ -86,22 +88,44 @@ Jaune : #ffc107
 
 /* Section Entrer */
 
+section * {
+  text-align: center;
+}
+
 .test {background-color:red;}
 
-.textcenter{text-align: center;}
+.textcenter{
+  text-align: center;
+}
+
+
+/* Section 2 */
+
+.large_img{
+  width: 80%;
+}
+
+.medium_img{
+  width: 30%;
+}
+
 
 /* STYLES DES SECTIONS  */
 
 .dark {
-    background-image: url("img/zelda-bg_pattern_brown.jpg");
+    background-image: url("../img/zelda-bg_pattern_brown.png");
+    background-repeat: repeat;
 }
 
 .dark * {color: white;}
 
 .light {
-    background-image: url("img/zelda-bg_pattern_white.png");
+    background-image: url("../img/zelda-bg_pattern_white.png");
 }
 
+strong{
+  color:#ffc107 !important;
+}
 
 /* MODAL */
 
