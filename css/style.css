@@ -17,12 +17,12 @@ h1,h2,h3,button,a {
   src: url('../fonts/MedulaOne-Regular.ttf') format('truetype');
 }
 
-h4{
+p{
   font-family: 'Libre Baskerville', serif;
   src: url('../fonts/LibreBaskerville-Regular.ttf') format('truetype'); 
 }
 
-h4 {
+p {
   font-family: 'Libre Baskerville', serif;
   src: url("../fonts/LibreBaskerville-Bold.ttf") format('truetype');
   font-weight: bold;
@@ -38,7 +38,7 @@ header{
 }
 
 header img {
-  height: 6vh;
+  height: 10vh;
 }
 
 header h2 {
@@ -49,11 +49,11 @@ header h2 {
 }
 
 header nav{
-  gap:10px
+  gap:15px
 }
 
-a{text-decoration: none;
-color:black;}
+nav a { text-decoration: none;
+    color:black;}
 
 a:hover{ font-weight: 600;}
 
@@ -62,15 +62,15 @@ a:hover{ font-weight: 600;}
 Polices : Medula One pour les titres et boutons, Libre Baskerville pour le reste
 */
 
-h1 {font-size:64px};
+h1 {font-size:64px}
 
-h2 {font-size:48px};
+h2 {font-size:48px}
 
-h3 {font-size:36px};
+h3 {font-size:36px}
 
-i {font-size:36px};
+i {font-size:36px}
 
-nav items {font-size:24px};
+nav a {font-size:24px}
 
 /*
 
@@ -84,20 +84,23 @@ Jaune : #ffc107
     https://getbootstrap.com/docs/5.0/utilities/spacing/
 */
 
+/* Section Entrer */
 
+.test {background-color:red;}
 
+.textcenter{text-align: center;}
 
 /* STYLES DES SECTIONS  */
 
 .dark {
-    /* Image de fond : zelda-bg_pattern_brown.png */
+    background-image: url("img/zelda-bg_pattern_brown.jpg");
 }
+
+.dark * {color: white;}
 
 .light {
-    /* Image de fond : zelda-bg_pattern_white.png */
+    background-image: url("img/zelda-bg_pattern_white.png");
 }
-
-
 
 
 /* MODAL */
