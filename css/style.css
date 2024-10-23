@@ -193,10 +193,11 @@ strong {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 3px;
+  gap: 8px;
   grid-auto-rows: minmax(100px, auto);
-
-  max-width: 80vw;
+  min-width: 40vw;
+  max-width: 60vw;
+  margin: auto;
   max-height: 1250px;
 }
 
