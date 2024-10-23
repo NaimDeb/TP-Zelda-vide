@@ -109,6 +109,10 @@ p {
 
 /* Section Entrer */
 
+section {
+  padding: 100px 0;
+}
+
 section * {
   text-align: center;
 }
@@ -258,6 +262,7 @@ div:has(> .btn) {
   text-decoration: none;
   color: inherit;
 }
+
 
 /* FLEXBOX */
 
