@@ -64,7 +64,7 @@ Polices : Medula One pour les titres et boutons, Libre Baskerville pour le reste
 
 h1 {font-size:64px}
 
-h2 {font-size:48px}
+h2 {font-size:48px !important}
 
 h3 {font-size:36px}
 
@@ -86,6 +86,15 @@ Jaune : #ffc107
     https://getbootstrap.com/docs/5.0/utilities/spacing/
 */
 
+/*  */
+
+p {margin-top: 40px !important;}
+
+
+
+
+
+
 /* Section Entrer */
 
 section * {
@@ -99,6 +108,28 @@ section * {
 }
 
 
+#Entrer p:first {
+  width: 70%;
+  height: 100px !important;
+  background-color: red;
+  align-items: center;
+  margin: auto;
+}
+
+.Entrer_bottom_div{
+  margin: auto !important;
+  padding: 10%;
+}
+
+.Entrer_bottom_div p{
+  width: 28vw !important;
+}
+
+.Entrer_bottom_div img {
+  width: 25vw;
+  margin-right: 10%;
+}
+
 /* Section 2 */
 
 .large_img{
@@ -106,9 +137,19 @@ section * {
 }
 
 .medium_img{
-  width: 30%;
+  width: 18vw;
 }
 
+#Decouvrir p, #Combattre p {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 30px !important;
+}
+
+#Combattre p:last-of-type {
+  padding: 20px;
+}
+/* Celui la il veut pas */
 
 /* STYLES DES SECTIONS  */
 
@@ -169,9 +210,26 @@ strong{
 /* BOUTONS */
 
 .btn {
+  background-color: #AF966D !important;
+  width: 20%;
+  height: 60px;
+  border-radius: 0 !important;
+  font-size: 30px !important;
+  text-transform: uppercase;
+  color:#ffc107 !important;
    
 }
 
+div:has(> .btn) {
+  gap:1px;
+  justify-content: center;
+}
+
+
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 /* FLEXBOX */
@@ -185,6 +243,7 @@ strong{
 
 /* Footer */
 
+footer{align-items: center;}
 
 
 /******************/
