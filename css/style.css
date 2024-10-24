@@ -251,7 +251,7 @@ strong {
 .card_plus {
   background-color: rgba(255, 255, 255, 0.9);
   width: 20%;
-  height: 700px;
+  height: 750px;
   position: relative;
 }
 
@@ -264,6 +264,9 @@ strong {
 
 .card_plus h3 {
   width: 80%;
+  max-height: min-content;
+  margin-bottom: 10px !important;
+  background-color: red;
 }
 
 .card_plus p {
@@ -271,7 +274,13 @@ strong {
   max-height: 100px;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-top: 10px !important;
 
+}
+
+.card_text{
+  height: 40%;
+  overflow: hidden;
 }
 
 .card_plus a i {
@@ -321,7 +330,22 @@ div:has(> .btn) {
 
 footer {
   align-items: center;
+  justify-content: center;
+  gap: 25%;
+  padding: 30px;
+  color: white;
 }
+
+footer i {color: white;}
+
+footer img { width: 250px;}
+
+footer div { text-align: center;}
+
+footer div p {
+  margin-top: 0 !important;
+}
+
 
 /******************/
 
